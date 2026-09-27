@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="darben — Visual Artifacts by Jia Qi">
+  <title>darben</title>
+
+  <link rel="preload" href="assets/fonts/Fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/IBMPlexSans-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/IBMPlexMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- ===== EditorialNav ===== -->
+  <nav class="editorial-nav" data-current-section="hero">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-item nav-item-hero" data-section="hero">01</a>
+      <a href="#works" class="nav-item nav-item-works" data-section="works">02</a>
+      <a href="#about" class="nav-item nav-item-about" data-section="about">03</a>
+      <a href="#contact" class="nav-item nav-item-contact" data-section="contact">04</a>
+    </div>
+  </nav>
+
+  <!-- ===== Section 01: Hero ===== -->
+  <section id="hero" class="hero-split" data-section-index="1">
+    <div class="hero-photo" data-parallax-speed="0.3">
+      <img src="assets/images/hero-qd.webp" alt="" class="hero-img" loading="eager">
+    </div>
+
+    <div class="hero-editorial">
+      <div class="hero-vol">
+        <span class="hero-vol-badge">VOL.01</span>
+        <span class="hero-vol-year">2026</span>
+      </div>
+
+      <h1 class="hero-title">DARBEN</h1>
+
+      <p class="hero-subtitle">Visual Artifacts</p>
+      <p class="hero-byline">Jia Qi · 19 · Hangzhou</p>
+
+      <a href="#works" class="hero-cta">
+        <span>See Works</span>
+        <span class="cta-arrow">→</span>
+      </a>
+
+      <div class="hero-social">
+        <a href="https://x.com/jiaqibuilds" class="social-item" target="_blank" rel="noopener">X</a>
+        <span class="social-sep">·</span>
+        <span class="social-item" title="WeChat: darben_top">WeChat</span>
+        <span class="social-sep">·</span>
+        <a href="https://github.com/darbengen" class="social-item" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Section 02: Works ===== -->
+  <section id="works" class="work-index" data-section-index="2">
+    <div class="works-layout">
+      <!-- Left: Preview image -->
+      <div class="works-preview" data-parallax-speed="0.2">
+        <div class="works-preview-frame">
+          <img src="assets/images/works/01-qiandu.webp" alt="" class="preview-img active" data-work="0">
+          <img src="assets/images/works/02-jimeng.webp" alt="" class="preview-img" data-work="1">
+          <img src="assets/images/works/03-poster-studio.webp" alt="" class="preview-img" data-work="2">
+          <img src="assets/images/works/04-4072km.webp" alt="" class="preview-img" data-work="3">
+          <img src="assets/images/works/05-cc-tools.webp" alt="" class="preview-img" data-work="4">
+          <img src="assets/images/works/06-saw-after.webp" alt="" class="preview-img" data-work="5">
+        </div>
+      </div>
+
+      <!-- Right: Works list -->
+      <div class="works-list">
+        <h2 class="works-chapter">Works</h2>
+
+        <ul class="works-items">
+          <li class="work-item" data-work-index="0">
+            <a href="https://darbengen.github.io/darben.top/" class="work-link" target="_blank" rel="noopener">
+              <span class="work-num">01</span>
+              <div class="work-info">
+                <span class="work-title">潜渡重设计</span>
+                <span class="work-meta">Interactive Web · 2026</span>
+              </div>
+            </a>
+          </li>
+          <li class="work-item" data-work-index="1">
+            <a href="https://darbengen.github.io/darben.top/" class="work-link" target="_blank" rel="noopener">
+              <span class="work-num">02</span>
+              <div class="work-info">
+                <span class="work-title">Jimeng HTML</span>
+                <span class="work-meta">Visual Sprint · 14 works · 2026</span>
+              </div>
+            </a>
+          </li>
+          <li class="work-item" data-work-index="2">
+            <a href="https://darbengen.github.io/darben.top/poster-studio.html" class="work-link" target="_blank" rel="noopener">
+              <span class="work-num">03</span>
+              <div class="work-info">
+                <span class="work-title">Poster Studio v5</span>
+                <span class="work-meta">SaaS Tool · 78 styles · 2026</span>
+              </div>
+            </a>
+          </li>
+          <li class="work-item" data-work-index="3">
+            <a href="https://darbengen.github.io/darben.top/works/dynamic/4072km.html" class="work-link" target="_blank" rel="noopener">
+              <span class="work-num">04</span>
+              <div class="work-info">
+                <span class="work-title">4072km</span>
+                <span class="work-meta">Visual Short · Urumqi → Hangzhou · 2025</span>
+              </div>
+            </a>
+          </li>
+          <li class="work-item" data-work-index="4">
+            <a href="https://darbengen.github.io/cc-install-site/" class="work-link" target="_blank" rel="noopener">
+              <span class="work-num">05</span>
+              <div class="work-info">
+                <span class="work-title">CC-Tools</span>
+                <span class="work-meta">Installer · Dual-tab dark theme · 2025</span>
+              </div>
+            </a>
+          </li>
+          <li class="work-item" data-work-index="5">
+            <a href="https://darbengen.github.io/darben.top/works/dynamic/%E7%9C%8B%E5%88%B0%E4%B9%8B%E5%90%8E_v2.html" class="work-link" target="_blank" rel="noopener">
+              <span class="work-num">06</span>
+              <div class="work-info">
+                <span class="work-title">看到之后 v2</span>
+                <span class="work-meta">Visual Short · dark + bone + blood red · 2025</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Section 03: About ===== -->
+  <section id="about" class="about-section" data-section-index="3">
+    <div class="about-inner">
+      <h2 class="about-chapter">About</h2>
+      <div class="about-content">
+        <p class="about-lede">19 岁，大一，在杭州。</p>
+        <p class="about-body">做视觉短片、交互页面、工具站点。<br>相信工具让创造更自由，好的设计不用解释。</p>
+        <p class="about-body">从乌鲁木齐到杭州，4072 公里。<br>用代码和画面搭建自己的操作系统。</p>
+        <p class="about-tags">
+          <span class="tag">Interactive Web</span>
+          <span class="tag">Visual Short</span>
+          <span class="tag">SaaS Tool</span>
+          <span class="tag">Digital Art</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Section 04: Contact ===== -->
+  <section id="contact" class="contact-lines" data-section-index="4">
+    <div class="contact-inner">
+      <h2 class="contact-chapter">Contact</h2>
+
+      <p class="contact-email"><a href="mailto:darben@darben.top">darben@darben.top</a></p>
+      <hr class="contact-rule">
+
+      <ul class="contact-list">
+        <li class="contact-item">
+          <a href="mailto:darben@darben.top" class="contact-link">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">darben@darben.top</span>
+          </a>
+        </li>
+        <li class="contact-item">
+          <a href="https://github.com/darbengen" class="contact-link" target="_blank" rel="noopener">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/darbengen</span>
+          </a>
+        </li>
+        <li class="contact-item">
+          <a href="https://x.com/jiaqibuilds" class="contact-link" target="_blank" rel="noopener">
+            <span class="contact-label">X</span>
+            <span class="contact-value">@jiaqibuilds</span>
+          </a>
+        </li>
+        <li class="contact-item">
+          <span class="contact-link">
+            <span class="contact-label">WeChat</span>
+            <span class="contact-value">darben_top</span>
+          </span>
+        </li>
+      </ul>
+
+      <footer class="contact-footer">
+        <a href="#hero" class="cf-back">↑ Back to top</a>
+      </footer>
+    </div>
+  </section>
+
+  <!-- ===== ScrollHint ===== -->
+  <div class="scroll-hint" aria-hidden="true">
+    <div class="scroll-progress">
+      <div class="scroll-progress-bar"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
